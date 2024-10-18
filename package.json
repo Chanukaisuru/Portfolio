@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This  personal portfolio website showcasing my skills, projects, and achievements. It highlights my experience, expertise, and creative work, providing a platform for potential employers and clients to learn more about me and my capabilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
