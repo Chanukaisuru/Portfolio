@@ -60,7 +60,7 @@ nav{
 
   .nav_menu{
     position: fixed;
-    bottom: 0;
+    bottom: -100% ;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
@@ -69,7 +69,12 @@ nav{
     border-radius:1.5rem 1.5rem 0 0;
     transition: .5s;
   }
-
+   
+  /*----show menu---------*/
+  .show-menu{
+    bottom: 0;
+  }
+    
   .nav_list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -78,6 +83,7 @@ nav{
 
   .nav_icon{
     font-size: 1.2rem;
+    
   }
 
   .nav_close{
@@ -93,9 +99,27 @@ nav{
     color: var(--title-color-dark);
   }
    
+  .nav_toggle{
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 15px;
+  }
+
   .nav_icon,
   .nav_close, 
   .nav_toggle{
-    display: block; 
+    display: block;
+    
   }
+}
+
+
+@media screen and(max-width: 350px) {
+    .nav_menu{
+        padding: 2rem 0.25rem 4rem;
+    }
+    
+    .nav_list{
+        column-gap: 0;
+    }
 }
