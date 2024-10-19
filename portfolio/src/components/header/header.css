@@ -19,6 +19,7 @@ nav{
 .nav_toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+    padding: 10px;
 }
 
 .nav_list{
@@ -122,4 +123,5 @@ nav{
     .nav_list{
         column-gap: 0;
     }
+    
 }
