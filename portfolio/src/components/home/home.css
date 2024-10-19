@@ -5,6 +5,20 @@
     align-items: center;
 }
 
+.home_social{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+}
+
+.home_social-icon{
+    font-size: 1.5rem;
+    color: var(--title-color);
+}
+.home_social-icon:hover{
+    color: var(--title-color-dark);
+}
+
 .home_img{
     background: url(../../assets/profile.jpg);
     background-repeat: no-repeat;
