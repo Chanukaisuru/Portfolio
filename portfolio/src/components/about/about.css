@@ -79,10 +79,12 @@
 
     .about_info{
         grid-template-columns: repeat(3,1fr);
+        margin: 15px;
 
     }
     .about_description {
         padding: 0 ; 
+        margin: 15px;
     }
 }
 
