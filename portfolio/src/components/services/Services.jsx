@@ -11,18 +11,18 @@ const Services = () => {
                 <div>
                     <i className="uil uil-web-grid services_icon"></i>
                     <h3 className="services_title">
-                        product <br>Designer</br></h3>
+                        product <br/>Designer</h3>
                 </div>
 
                 <span className="services_button">
-                    View More{""} 
+                    View More
                     <i className="uil uil-arrow-right services_button-icon"></i></span>
 
                 <div className="services_modal">
                     <div className="services_modal-content">
                         <i className="uil uil-times services_modal-close"></i>
 
-                        <h3 className="services_modal-title"></h3>
+                        <h3 className="services_modal-title">product Designer</h3>
                         <p className="services_modal-description">
                             service with more than 3 years of experience.
                             providing quality work to clients and companies.
@@ -72,17 +72,19 @@ const Services = () => {
 
             <div className="services_content">
                 <div>
-                    <i className="uil uil services_icon"></i>
-                    <h3 className="services_title"></h3>
+                    <i className="uil uil-arrow services_icon"></i>
+                    <h3 className="services_title">Ui/Ux <br/>Designer</h3>
                 </div>
 
-                <span className="services_button">View More <i className="uil uil-arrow-right services_button-icon"></i></span>
+                <span className="services_button">
+                    View More 
+                    <i className="uil uil-arrow-right services_button-icon"></i></span>
 
                 <div className="services_modal">
                     <div className="services_modal-content">
                         <i className="uil uil-times services_modal-close"></i>
 
-                        <h3 className="services_modal-title"></h3>
+                        <h3 className="services_modal-title">Ui/Ux Designer</h3>
                         <p className="services_modal-description">
                             service with more than 3 years of experience.
                             providing quality work to clients and companies.
@@ -132,17 +134,19 @@ const Services = () => {
 
             <div className="services_content">
                 <div>
-                    <i className="uil uil services_icon"></i>
-                    <h3 className="services_title"></h3>
+                    <i className="uil uil-edit services_icon"></i>
+                    <h3 className="services_title">Visual<br/>Designer</h3>
                 </div>
 
-                <span className="services_button">View More <i className="uil uil-arrow-right services_button-icon"></i></span>
+                <span className="services_button">
+                    View More 
+                    <i className="uil uil-arrow-right services_button-icon"></i></span>
 
                 <div className="services_modal">
                     <div className="services_modal-content">
                         <i className="uil uil-times services_modal-close"></i>
 
-                        <h3 className="services_modal-title"></h3>
+                        <h3 className="services_modal-title">Visual Designer</h3>
                         <p className="services_modal-description">
                             service with more than 3 years of experience.
                             providing quality work to clients and companies.
@@ -192,7 +196,7 @@ const Services = () => {
         </div>
 
     </sectiion>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
