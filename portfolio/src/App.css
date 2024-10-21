@@ -107,7 +107,6 @@ img{
 /*________reuseble css classe_______________*/
 .section{
   padding: 6rem 0 2rem;
-  
 
 }
 
@@ -115,6 +114,8 @@ img{
   font-size: var(--h1-font-size);
   color: var(--title-color);
   text-align: center;
+  
+ 
 }
 
 .section_subtitle{
