@@ -2,6 +2,7 @@
     grid-template-columns: repeat(2, 350px);
     column-gap: 3rem;
     justify-content: center;
+    
 }
 
 .services_content{
@@ -151,10 +152,14 @@
      }
 }
 
-@media screen and(max-width:350px){
-    .services_container{
-        grid-template-columns: max-content;
-       
+@media screen and (max-width: 350px) {
+    .services_container {
+        grid-template-columns: 1fr;
+        
     }
-    
+
+    .services_content {
+        max-width: 100%; /* Ensures width is capped at 90% of the screen */
+        margin: 0 10px; /* Centers the content horizontally */
+    }
 }
