@@ -62,8 +62,9 @@
   
   
   @media screen and(max-width: 576px) {
-      .skills_container{
+    .skills_container{
         grid-template-columns: 1fr;
+        
       }
 
     .skills_content{
@@ -73,7 +74,12 @@
   
   
   @media screen and(max-width: 350px) {
-      .skills_box{
+    .skills_container{
+        grid-template-columns: repeat(1,250px);
+        
+      }  
+    
+    .skills_box{
         column-gap: 1.25rem;
 
       }
@@ -81,4 +87,5 @@
       .skills_name{
         font-size: var(--small-font-size);
       }
+
   }
