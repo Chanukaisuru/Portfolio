@@ -48,7 +48,7 @@
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
-    padding: 0 230px; /*----------*/
+    
  }
 
  .qualification_title{
@@ -83,4 +83,19 @@
  }
 
 
+
+ @media  screen and (max-width: 992px) {
+   .qualification_container{
+      margin-left: auto;
+      margin-right: auto;
+   }
+   
+ }
+
+ @media screen and (max-width: 768px){
+    .qualification_container{
+      margin-left: var(--mb-1-5);
+      margin-right: var(--mb-1-5);
+    }
+ }
 
