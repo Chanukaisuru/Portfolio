@@ -35,7 +35,7 @@ const Qualification = () => {
                     : "qualification_content"
                 }>
 
-                    <div className="qualification_data">
+                    <div className="qualification_data_b">
                         <div>
                             <h3 className="qualification_title">Web Design</h3>
                             <span className="qualification_subtitle">Spain - Institute</span>
@@ -67,7 +67,7 @@ const Qualification = () => {
                         </div>
                     </div>
 
-                    <div className="qualification_data">
+                    <div className="qualification_data_b">
                         <div>
                             <h3 className="qualification_title">Web Development</h3>
                             <span className="qualification_subtitle">Spain - Institute</span>
@@ -107,7 +107,7 @@ const Qualification = () => {
                     : "qualification_content"
                 }>
 
-                    <div className="qualification_data">
+                    <div className="qualification_data_b">
                         <div>
                             <h3 className="qualification_title">Product Design</h3>
                             <span className="qualification_subtitle">Spain - Institute</span>
@@ -139,7 +139,7 @@ const Qualification = () => {
                         </div>
                     </div>
 
-                    <div className="qualification_data">
+                    <div className="qualification_data_b">
                         <div>
                             <h3 className="qualification_title">Web Designer</h3>
                             <span className="qualification_subtitle">FIgma - Spain</span>
