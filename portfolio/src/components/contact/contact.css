@@ -70,3 +70,8 @@
 .contact_form{
     width: 360px;
 }
+
+.contact_form-div{
+    position: relative
+    ;
+}
