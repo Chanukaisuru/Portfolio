@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Social = () => {
   return (
@@ -22,4 +22,4 @@ const Social = () => {
   );
 };
 
-export default Social
+export default Social;
