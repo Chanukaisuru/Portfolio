@@ -1,4 +1,5 @@
 import React from 'react';
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -41,7 +42,9 @@ const Footer = () => {
                 </a>
             </div>
 
-            
+             <span className="footer_copy">
+                &copy; Crypticaléoder. All rights reserved
+             </span>
         </div>
     </footer>
   );
