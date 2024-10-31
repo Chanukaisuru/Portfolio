@@ -2,6 +2,12 @@ import React,{useState} from 'react';
 import "./header.css";
 
 const Header = () => {
+    window.addEventListener("scroll", function(){
+        const scrollUp = document.querySelector(".scrollup");
+    
+        if(this.scrollY >= 560) scrollUp.classList.add("show-scroll");
+        else scrollUp.classList.remove("show-scroll");
+      })
     /*---------togger menu------------------------ */
     const[Toggle, showMenu] = useState(false);
 
