@@ -26,7 +26,7 @@
     text-align: center;
  }
 
- .conatct_card-icon{
+ .contact_card-icon{
     font-size: 2rem ;
     color: var(--title-color);
     margin-bottom: var(--mb-0-25);
@@ -135,6 +135,8 @@
 }
 
 @media  screen and (max-width:576px) {
+
+    
     .contact_info{
         grid-template-columns: 1fr;
 
@@ -145,3 +147,4 @@
     }
     
 }
+

@@ -1,7 +1,24 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import "./contact.css";
 
 const Contact = () => {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_6q5hjys', 
+        'template_awm2k68', 
+        form.current, {
+        publicKey: 'fV8MJBECIk917R0HX',
+    })
+
+    e.target.reset()
+      
+  };
   return (
     <section className="contact section" id="contact">
         <h2 className="section_title">Get in touch</h2>
@@ -18,7 +35,7 @@ const Contact = () => {
                          <h3 className="contact_card-title">Email</h3>
                          <span className="contact_card-data">chanukaisuru26@gmail.com</span>
 
-                         <a href="" className="contact_button">
+                         <a href="mailto:examplemail@gmail.com.com" className="contact_button">
                             Write me{" "}
                             <i className="bx bx-right-arrow-alt contact_button-icon"></i>
                         </a>  
@@ -30,7 +47,8 @@ const Contact = () => {
                          <h3 className="contact_card-title">Whatsapp</h3>
                          <span className="contact_card-data">0785261479</span>
 
-                         <a href="" className="contact_button">
+                         <a href="https://api.whatsapp.com/send?
+                         phone=0785261479&text=Hello, more information!" className="contact_button">
                             Write me{" "}
                             <i className="bx bx-right-arrow-alt contact_button-icon"></i>
                         </a>  
@@ -42,7 +60,7 @@ const Contact = () => {
                          <h3 className="contact_card-title">Messenger</h3>
                          <span className="contact_card-data">Chanuka Isuru</span>
 
-                         <a href="" className="contact_button">
+                         <a href="https://m.me/crypticalcoder" className="contact_button">
                             Write me{" "}
                             <i className="bx bx-right-arrow-alt contact_button-icon"></i>
                         </a>  
@@ -53,7 +71,8 @@ const Contact = () => {
             <div className="conatct_content">
                 <h3 className="contact_title">Write me your project</h3>
 
-                <form className="contact_form">
+                <form ref={form} onSubmit={sendEmail}
+                 className="contact_form">
                     <div className="contact_form-div">
                         <label className="contact_form-tag">Name</label>
                         <input
