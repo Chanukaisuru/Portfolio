@@ -17,7 +17,7 @@ const Works = () => {
 
         else{
             const newProjects = projectsData.filter((project) => {
-                return project.category === item.name;
+                return project.category.toLowerCase() === item.name;
             });
             setProjects(newProjects);
 
@@ -27,7 +27,7 @@ const Works = () => {
 
 
   const handleClick = (e, index) =>{
-    setItem({name: e.target.textContent});
+    setItem({name: e.target.textContent.toLowerCase()});
     setActive(index);
   };
   return (
