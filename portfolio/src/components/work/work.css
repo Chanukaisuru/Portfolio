@@ -1,0 +1,11 @@
+.work_container{
+    grid-template-columns: repeat(2,max-content);
+    gap: 3rem;
+    justify-content: center;
+}
+
+.work_img{
+    width: 295px;
+    border-radius: 1rem;
+    
+}
