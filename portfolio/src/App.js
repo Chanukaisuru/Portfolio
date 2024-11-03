@@ -22,10 +22,11 @@ const App = () =>{
       <Skills />
       <Services />
       <Qualification />
+      <Work />
       <Contact />
       <Footer />
       <ScrollUp />
-      <Work />
+      
     </main>
     </>
   )
