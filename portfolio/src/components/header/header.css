@@ -46,7 +46,7 @@ nav{
 /*Active link*/
 .active-link,
 .nav_link:hover{
-    color: var(--title-color-dark);
+    color: #F4C198;
 }
 
 .scroll-neader{
