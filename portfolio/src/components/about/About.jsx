@@ -17,8 +17,10 @@ const About = () => {
                 <Info />
 
                 <p className="about_description">
-                  Frontend Developer, I create a web pages with UI?UX user Interface,
-                  I have year of experience and any clients are happy with the projects carried out.
+                I am a software engineering undergraduate at Uva Wellassa University,
+                focusing on frontend development and UI/UX design. I also write blogs,
+                sharing insights on technology and design. I enjoy building userfriendly, visually appealing interfaces and am eager to apply my skills in
+                a dynamic, real-world setting.
                 </p>
 
                 <a download="" href={CV} className='button button--flex'>Download CV
