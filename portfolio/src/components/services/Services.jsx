@@ -57,19 +57,6 @@ const Services = () => {
                                     I create UX element interaction.</p>
                             </li>
 
-                            <li className="services_modal-service">
-                                <i className="uil uil-check-circle
-                                 services_modal-icon"></i>
-                                <p className="services_modal-info">
-                                    I position your company brand.</p>
-                            </li>
-
-                            <li className="services_modal-service">
-                                <i className="uil uil-check-circle
-                                 services_modal-icon"></i>
-                                <p className="services_modal-info">
-                                   Design and mockups of products for companies.</p>
-                            </li>
                         </ul>
 
 
@@ -80,7 +67,7 @@ const Services = () => {
             <div className="services_content">
                 <div>
                     <i className="uil uil-edit services_icon"></i>
-                    <h3 className="services_title">Visual<br/>Designer</h3>
+                    <h3 className="services_title">Web<br/>Developer</h3>
                 </div>
 
                 <span onClick={() => toggleTab(3)}className="services_button">
@@ -91,7 +78,7 @@ const Services = () => {
                     <div className="services_modal-content">
                         <i onClick={() => toggleTab(0)}className="uil uil-times services_modal-close"></i>
 
-                        <h3 className="services_modal-title">Visual Designer</h3>
+                        <h3 className="services_modal-title">Web Developer</h3>
                         <p className="services_modal-description">
                             service with more than 3 years of experience.
                             providing quality work to clients and companies.
