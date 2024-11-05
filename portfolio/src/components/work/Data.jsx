@@ -9,6 +9,7 @@
         image: Work1,
         title: 'Restaurant-Management-System',
         category: 'web',
+        link: 'https://github.com/Chanukaisuru/Restaurant-Management-System'
     },
 
 
@@ -17,6 +18,7 @@
         image: Work2,
         title: 'Doc-Finder ',
         category: 'web',
+        link:'https://github.com/Chanukaisuru/Doc-Finder'
     },
 
     {
@@ -24,6 +26,7 @@
         image: Work3,
         title: 'Sweet-Treats ',
         category: 'web',
+        link:'https://github.com/Chanukaisuru/Sweet-Treats'
     },
 
  ]
