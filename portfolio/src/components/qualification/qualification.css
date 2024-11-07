@@ -125,17 +125,23 @@
        column-gap: 20px;
      }
 
+     .qualification_title{
+      font-size: var(--small-font-size);
+      font-weight: var(--font-semi-bold);
+   }
+
 
    
  }
 
  @media screen and (max-width: 350px){
    .qualification_data{
-     column-gap: 20px;
+     column-gap: 5px;
    }
 
    .qualification_data_b{
-      column-gap: 20px;
+      column-gap: 5px;
+      
     }
 
     .qualification_title{
