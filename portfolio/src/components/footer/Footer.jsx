@@ -41,10 +41,10 @@ const Footer = () => {
                     <i class="bx bxl-tiktok"></i>
                 </a>
 
-                <a href="https://medium.com/@chanukaisuru"
+                {/*<a href="https://medium.com/@chanukaisuru"
                  className='home_social-icon' target='_blank'>
-                 <i class="bx bxl-medium"></i>
-               </a>
+                 <i class=""></i>
+              </a>*/}
             </div>
 
              <span className="footer_copy">
