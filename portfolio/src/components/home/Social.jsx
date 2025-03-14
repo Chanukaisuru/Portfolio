@@ -1,5 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+import { FiFacebook } from "react-icons/fi";
+import { RiMediumLine } from "react-icons/ri";
+import { FiGithub } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
+
+
+
 
 const Social = () => {
   const socialRef = useRef(null);
@@ -36,22 +43,22 @@ const Social = () => {
     <div className='home_social' ref={socialRef}>
       <a href="https://www.linkedin.com/in/chanuka-isuru-5030492b2/"
          className='home_social-icon' target='_blank'>
-        <i className="uil uil-linkedin-alt"></i>
-      </a>
+        <FiLinkedin size={30} color="black" />
+        </a>
 
       <a href="https://medium.com/@chanukaisuru"
          className='home_social-icon' target='_blank'>
-        <i className="uil uil-medium-m"></i>
+        <RiMediumLine size={30} color="black" />
       </a>
 
       <a href="https://m.facebook.com/"
          className='home_social-icon' target='_blank'>
-        <i className="uil uil-facebook-f"></i>
+        <FiFacebook size={30} color="black" />
       </a>
 
       <a href="https://github.com/Chanukaisuru"
          className='home_social-icon' target='_blank'>
-        <i className="uil uil-github-alt"></i>
+        <FiGithub size={30} color="black" />
       </a>
     </div>
   );
