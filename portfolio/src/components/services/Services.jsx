@@ -31,7 +31,7 @@ const Services = () => {
 
                         <h3 className="services_modal-title">Ui/Ux Designer</h3>
                         <p className="services_modal-description">
-                            service with more than 3 years of experience.
+                            
                             providing quality work to clients and companies.
                         </p>
 
@@ -40,21 +40,35 @@ const Services = () => {
                                 <i className="uil uil-check-circle
                                  services_modal-icon"></i>
                                 <p className="services_modal-info">
-                                    I develop the user interface.</p>
+                                Designs intuitive and visually appealing user interfaces..</p>
                             </li>
 
                             <li className="services_modal-service">
                                 <i className="uil uil-check-circle
                                  services_modal-icon"></i>
                                 <p className="services_modal-info">
-                                    Web page development.</p>
+                                Enhances user experience through thoughtful interactions.</p>
                             </li>
 
                             <li className="services_modal-service">
                                 <i className="uil uil-check-circle
                                  services_modal-icon"></i>
                                 <p className="services_modal-info">
-                                    I create UX element interaction.</p>
+                                Develops wireframes, prototypes, and design systems.</p>
+                            </li>
+
+                            <li className="services_modal-service">
+                                <i className="uil uil-check-circle
+                                 services_modal-icon"></i>
+                                <p className="services_modal-info">
+                                Ensures usability and accessibility best practices.</p>
+                            </li>
+
+                            <li className="services_modal-service">
+                                <i className="uil uil-check-circle
+                                 services_modal-icon"></i>
+                                <p className="services_modal-info">
+                                Creates seamless and engaging digital experiences..</p>
                             </li>
 
                         </ul>
