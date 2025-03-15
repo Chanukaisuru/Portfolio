@@ -33,7 +33,7 @@ const Contact = () => {
                          <i className="bx bx-mail-send contact_card-icon"></i>
 
                          <h3 className="contact_card-title">Email</h3>
-                         <span className="contact_card-data">chanukaisuru26@gmail.com</span>
+                         <span className="contact_card-data">chanukahak@gmail.com</span>
 
                          <a href="mailto:examplemail@gmail.com.com" className="contact_button">
                             Write me{" "}
@@ -60,7 +60,7 @@ const Contact = () => {
                          <h3 className="contact_card-title">Messenger</h3>
                          <span className="contact_card-data">Chanuka Isuru</span>
 
-                         <a href="https://m.me/crypticalcoder" className="contact_button">
+                         <a href="https://www.linkedin.com/messaging/thread/new/?isTYAHFlow=true" className="contact_button">
                             Write me{" "}
                             <i className="bx bx-right-arrow-alt contact_button-icon"></i>
                         </a>  
