@@ -11,14 +11,14 @@
  .qualification_button{
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    color: var(--title-color);
+    color: #6c757d;
     margin: 0 var(--mb-2);
     cursor: pointer;
 
  }
 
  .qualification_button:hover{
-    color: var(--title-color-dark);
+    color: var(--title-color);
  }
 
  .qualification_icon{
@@ -27,7 +27,7 @@
  }
 
  .qualification_active{
-    color: var(--title-color-dark);
+    color: var(--title-color);
  }
 
  .qualification_section{
