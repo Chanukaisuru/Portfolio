@@ -18,7 +18,7 @@ const About = () => {
 
                 <p className="about_description">
                 I am a software engineering undergraduate at Uva Wellassa University,
-                focusing on frontend development and UI/UX design. I also write blogs,
+                focusing on Web development. I also write blogs,
                 sharing insights on technology and design. I enjoy building userfriendly, visually appealing interfaces and am eager to apply my skills in
                 a dynamic, real-world setting.
                 </p>

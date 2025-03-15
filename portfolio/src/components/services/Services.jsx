@@ -80,7 +80,7 @@ const Services = () => {
 
                         <h3 className="services_modal-title">Web Developer</h3>
                         <p className="services_modal-description">
-                            service with more than 3 years of experience.
+                            
                             providing quality work to clients and companies.
                         </p>
 
@@ -89,35 +89,35 @@ const Services = () => {
                                 <i className="uil uil-check-circle
                                  services_modal-icon"></i>
                                 <p className="services_modal-info">
-                                    I develop the user interface.</p>
+                                Develops responsive and high-performance websites.</p>
                             </li>
 
                             <li className="services_modal-service">
                                 <i className="uil uil-check-circle
                                  services_modal-icon"></i>
                                 <p className="services_modal-info">
-                                    Web page development.</p>
+                                Optimizes user experience and functionality.</p>
                             </li>
 
                             <li className="services_modal-service">
                                 <i className="uil uil-check-circle
                                  services_modal-icon"></i>
                                 <p className="services_modal-info">
-                                    I create UX element interaction.</p>
+                                Ensures seamless interaction across all devices.</p>
                             </li>
 
                             <li className="services_modal-service">
                                 <i className="uil uil-check-circle
                                  services_modal-icon"></i>
                                 <p className="services_modal-info">
-                                    I position your company brand.</p>
+                                Implements modern web technologies and best practices.</p>
                             </li>
 
                             <li className="services_modal-service">
                                 <i className="uil uil-check-circle
                                  services_modal-icon"></i>
                                 <p className="services_modal-info">
-                                   Design and mockups of products for companies.</p>
+                                Enhances website accessibility and performance.</p>
                             </li>
                         </ul>
 
