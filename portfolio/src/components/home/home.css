@@ -6,19 +6,20 @@
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
     column-gap: 2rem;
-    align-items: center;
+    
     
 }
 
 .home_social{
     display: grid;
     grid-template-columns: max-content;
-    row-gap: 1rem;
+    row-gap: 0;
+    
 }
 
 .home_social-icon{
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: #6c757d;
 }
 .home_social-icon:hover{
     color: var(--title-color-dark);
@@ -168,8 +169,21 @@
     .home_content{
         grid-template-columns: 0.5fr 3fr;
         padding-top: 3.5rem;
+        display: flex; /* Ensure it uses flexbox */
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center; /* Center content vertically */
+        align-items: center; /* Center content horizontally */
+        text-align: center; /* Ensure text alignment */
+      
     }
 
+    .home_social{
+        
+        display: flex;
+        gap: 2rem;
+       
+    }
+    
     .home_img{
         order: initial;
         justify-self: initial;

@@ -32,7 +32,7 @@ nav{
     flex-direction: column;
     align-items: center;
     font-size: var(--small-font-size);
-    color: var(--title-color);
+    color: #6c757d;
     font-weight: var(--font-medium);
     transition: .3s;
 }
@@ -46,7 +46,7 @@ nav{
 /*Active link*/
 .active-link,
 .nav_link:hover{
-    color: #fcca46;
+    color: var(--title-color);
 }
 
 .scroll-neader{
