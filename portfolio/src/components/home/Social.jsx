@@ -12,6 +12,10 @@ const Social = () => {
   const socialRef = useRef(null);
 
   useEffect(() => {
+
+    const element = socialRef.current;
+
+    
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach(entry => {
@@ -28,13 +32,13 @@ const Social = () => {
       { threshold: 0.1 } // Adjust this value for when you want the animation to trigger
     );
 
-    if (socialRef.current) {
-      observer.observe(socialRef.current);
+    if (element) {
+      observer.observe(element);
     }
 
     return () => {
-      if (socialRef.current) {
-        observer.unobserve(socialRef.current);
+      if (element) {
+        observer.unobserve(element);
       }
     };
   }, []);
