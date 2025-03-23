@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.be896a21.css",
+    "main.js": "/Portfolio/static/js/main.758088a3.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/about.jpg": "/Portfolio/static/media/about.086d4274442ca89ab993.jpg",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.cd41d5b55984f2dfee6f.jpg",
+    "static/media/Chanuka_CV.pdf": "/Portfolio/static/media/Chanuka_CV.8a59b019daeb74c4abe2.pdf",
+    "static/media/work4.jpg": "/Portfolio/static/media/work4.dfb083fa25488ce90a5e.jpg",
+    "static/media/work6.jpg": "/Portfolio/static/media/work6.30b9d0824febdcbd3c39.jpg",
+    "static/media/work1.jpg": "/Portfolio/static/media/work1.edd66ba70ebef6d995de.jpg",
+    "static/media/work3.jpg": "/Portfolio/static/media/work3.2a807f7c66db3c25d77d.jpg",
+    "static/media/work5.png": "/Portfolio/static/media/work5.07e5f9407dfd98cc79f9.png",
+    "static/media/work2.jpg": "/Portfolio/static/media/work2.d1d06334e60af4e264ab.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.be896a21.css.map": "/Portfolio/static/css/main.be896a21.css.map",
+    "main.758088a3.js.map": "/Portfolio/static/js/main.758088a3.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be896a21.css",
+    "static/js/main.758088a3.js"
+  ]
+}
