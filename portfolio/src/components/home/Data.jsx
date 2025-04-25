@@ -56,7 +56,7 @@ const Data = () => {
         </h1>
 
         <h3 className="home_subtitle">Web Developer</h3>
-        <p className="home_description">I'm Web developer based
+        <p className="home_description">I'm software Engineere based
             in Sri Lanka,and I'm very passionate and dedicate to my work.
         </p>
 
